@@ -30,3 +30,7 @@ ggplot(data = energy, aes(x = year, y = quadrillion_btu)) +
   geom_point(aes(color = type)) +
   geom_line(aes(color = type))
 ```
+
+```{r}
+energy2 <- read.csv(data)_
+```

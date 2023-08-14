@@ -7,5 +7,5 @@ editor: visual
 ## yo
 
 ```{r}
-
+energy2 <- read_csv('../data/us_energy.csv')
 ```
