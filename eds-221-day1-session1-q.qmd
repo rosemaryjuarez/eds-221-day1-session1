@@ -11,3 +11,22 @@ execute:
 ```{r}
 library(tidyverse)
 ```
+
+## Read in data
+
+```{r}
+energy <- read_csv('data/us_energy.csv')
+```
+
+create a line chart of energy over time, with color based on the energy type
+
+```{r}
+ggplot(data = energy, aes(y = quadrillion_btu, x = year)) + geom_line(aes(color = type)) + 
+  geom_point(aes(color = type))
+```
+
+```{r}
+ggplot(data = energy, aes(x = year, y = quadrillion_btu)) +
+  geom_point(aes(color = type)) +
+  geom_line(aes(color = type))
+```
