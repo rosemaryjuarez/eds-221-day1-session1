@@ -2,12 +2,10 @@
 title: "eds day 1 session 1"
 format: html
 editor: visual
-execute: 
-  warning: false
 ---
 
 ## yo
 
 ```{r}
-library(tidyverse)
+
 ```
